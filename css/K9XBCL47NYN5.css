@@ -1,0 +1,54 @@
+/*
+ *  CAROUSEL
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  Carousel > Demo #2
+ *---------------------------------*/
+.carousel-demo2{width:921px;height:140px;}
+
+/* Navbar */
+.carousel-demo2 .sliderkit-nav-clip ul li{float:left; margin:0 10px 0 0;}
+.carousel-demo2 .sliderkit-nav-clip ul li a{display:block;/*image size*/width:197px;height:140px;overflow:hidden;margin:0;opacity:1;border:0px;}
+.carousel-demo2 .sliderkit-nav-clip ul li a:hover{opacity:0.5;background-color:#FFF;}
+
+/* Navbar buttons */
+.carousel-demo2 .sliderkit-nav{left:0px;bottom:0px;width:861px; height:140px; padding-left:52px;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-btn{position:absolute;top:0px;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-btn span{display:none;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-btn a{display:block;width:46px;height:140px;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-prev{left:0px; top:0px; }
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-next{right:0px; top:0px; display:block;width:38px;height:100px;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-prev a{background-position:-1px center; background:url(../images/G0YPI8jUVNqZ.png) no-repeat center 0;}
+.carousel-demo2 .sliderkit-nav .sliderkit-nav-next a{background-position:1px 0px;background:url(../images/ZgD1cG4PmnDU.png) no-repeat;}
+
+/* Buttons > Disable */
+.carousel-demo2 .sliderkit-nav .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+
+/*
+ *  PLUGIN BASICS
+ *  ------------------------------------------------
+ */
+.sliderkit{display:none;position:relative;overflow:hidden;text-align:left;}
+.sliderkit a,
+.sliderkit a:hover{text-decoration:none;}
+.sliderkit a:focus{outline:1px dotted #000;/*optional*/}
+.sliderkit img{border:0;}
+
+/*---------------------------------
+ *  Navigation
+ *---------------------------------*/
+.sliderkit .sliderkit-nav{z-index:10;position:absolute;text-align:center;}
+
+/* Nav > Clip */
+.sliderkit .sliderkit-nav-clip{position:relative;overflow:hidden;margin:0 auto;}
+.sliderkit .sliderkit-nav-clip ul{position:relative;left:0;top:0;list-style:none;margin:0;padding:0;}
+.sliderkit .sliderkit-nav-clip ul li{float:left;}
+.sliderkit .sliderkit-nav-clip ul li a{display:block;overflow:hidden;}
+
+/*---------------------------------
+ *  Buttons
+ *---------------------------------*/
+.sliderkit .sliderkit-btn{z-index:10;}
+
